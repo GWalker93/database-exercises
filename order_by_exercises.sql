@@ -2,7 +2,7 @@ use employees;
 
 SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya') order by last_name ASC, first_name ASC;
 
-SELECT * FROM employees WHERE last_name like 'E%' order by emp_no;
+SELECT * FROM employees WHERE last_name like 'E%' order by emp_no DESC;
 
 SELECT * FROM employees WHERE last_name like '%q%';
 
