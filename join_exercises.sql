@@ -42,3 +42,5 @@ from employees as e
 WHERE dm.to_date = '9999-01-01'
   and s.to_date = '9999-01-01'
 order by d.dept_name asc;
+
+-- hello
